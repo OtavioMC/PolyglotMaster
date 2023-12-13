@@ -1,0 +1,21 @@
+{
+    "name": "otaviomc/polyglot-master",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "OtavioMC\\PolyglotMaster\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "OtavioMC",
+            "email": "mendoncacostaotavio@gmail.com"
+        }
+    ],
+    "require-dev": {
+        "kahlan/kahlan": "^5.2"
+    },
+    "scripts" : {
+        "test" : "kahlan"
+    }
+}
